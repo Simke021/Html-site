@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aleksandar Web Desigh | About</title>
+  <meta name="author" content="Aleksandar Ljubišić">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Aleksandar</span> Design</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="newsletter">
+    <div class="container">
+      <h2>Subscribe To Our Newsletter</h2>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_subscribe">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page_title">About me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odio eius voluptatibus aut adipisci, nostrum accusantium, unde labore sed repudiandae similique quia ut quaerat quas maxime quod libero ex at? Nesciunt odio eius voluptatibus aut adipisci, nostrum accusantium, unde labore sed repudiandae similique quia ut quaerat quas maxime quod libero ex at.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis provident assumenda et tenetur reiciendis totam hic placeat perferendis qui, fuga saepe at suscipit corporis doloribus. Deleniti modi quidem earum ut temporibus consectetur ipsum facilis. Fuga nam explicabo iure laudantium. Earum, totam? Error, tempore reprehenderit aperiam itaque deleniti iste et dolor commodi corporis voluptatum odio, fugit nostrum, incidunt ipsum autem architecto nesciunt eveniet? Earum dicta, neque ab pariatur delectus eos! Hic quaerat accusantium tempora temporibus iusto doloribus soluta placeat possimus corrupti ea. Culpa nostrum neque veniam deserunt est quas molestias! Autem voluptatum corrupti at dignissimos eum.</p>
+        <img src="img/btc.jpeg" alt="about me">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odio eius voluptatibus aut adipisci, nostrum accusantium, unde labore sed repudiandae similique quia ut quaerat quas maxime quod libero ex at? Nesciunt odio eius voluptatibus aut adipisci, nostrum accusantium, unde labore sed repudiandae similique quia ut quaerat quas maxime quod libero ex at.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis provident assumenda et tenetur reiciendis totam hic placeat perferendis qui, fuga saepe at suscipit corporis doloribus. Deleniti modi quidem earum ut temporibus consectetur ipsum facilis. Fuga nam explicabo iure laudantium. Earum, totam? Error, tempore reprehenderit aperiam itaque deleniti iste et dolor commodi corporis voluptatum odio, fugit nostrum, incidunt ipsum autem architecto nesciunt eveniet? Earum dicta, neque ab pariatur delectus eos! Hic quaerat accusantium tempora temporibus iusto doloribus soluta placeat possimus corrupti ea. Culpa nostrum neque veniam deserunt est quas molestias! Autem voluptatum corrupti at dignissimos eum.</p>
+      </article>
+
+      <aside id="sidebar">
+        <div class="dark">
+            <h3>What We Do?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ratione minus at vero, dolor possimus. Officiis maiores voluptatibus ducimus rem laborum fuga?</p>
+            <script type="text/javascript">
+              baseUrl = "https://widgets.cryptocompare.com/";
+              var scripts = document.getElementsByTagName("script");
+              var embedder = scripts[ scripts.length - 1 ];
+              var cccTheme = {"General":{"background":"#333","borderColor":"#545454","borderRadius":"4px 4px 0 0"},"Header":{"background":"#000","color":"#FFF"},"Followers":{"background":"#f7931a","color":"#FFF","borderColor":"#e0bd93","counterBorderColor":"#fdab48","counterColor":"#f5d7b2"},"Data":{"priceColor":"#FFF","infoLabelColor":"#CCC","infoValueColor":"#CCC"},"Chart":{"fillColor":"rgba(86,202,158,0.5)","borderColor":"#56ca9e"},"Conversion":{"background":"#000","color":"#999"}};
+              (function (){
+              var appName = encodeURIComponent(window.location.hostname);
+              if(appName==""){appName="local";}
+              var s = document.createElement("script");
+              s.type = "text/javascript";
+              s.async = true;
+              var theUrl = baseUrl+'serve/v1/coin/chart?fsym=BTC&tsym=USD';
+              s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+              embedder.parentNode.appendChild(s);
+              })();
+              </script>
+              <img src="img/btc_sidebar.jpeg" alt="btc_sidebar" width="100%">
+          </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    <p>Aleksandar Web Design Copyright &copy; 2018</p>
+  </footer>
+
+</body>
+</html>
